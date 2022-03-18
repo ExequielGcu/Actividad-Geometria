@@ -1,4 +1,23 @@
-p{
+.correctos{
     border: 1px solid black;
+    background: #86ddb6;
     
   }
+
+  p{
+    border: 1px solid black;
+    background: #f3a38b;
+    
+  }
+
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+h5{
+  background: black;
+  color: #fff;
+  
+}

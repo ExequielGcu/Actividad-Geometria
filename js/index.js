@@ -28,7 +28,7 @@ function calcular() {
       if (calculoDos > x) {
 
         document.getElementById("triangulos-uno").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
+      <p class="correctos">`+ x + "-" + y + "-" + z + `</p>
       `;
       }
     }
@@ -65,7 +65,7 @@ function calcular() {
     if (calculo > z) {
       if (calculoDos > x) {
         document.getElementById("triangulos-dos").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
+      <p class="correctos">`+ x + "-" + y + "-" + z + `</p>
       `;
       }
     }
@@ -100,7 +100,7 @@ function calcular() {
     if (calculo > z) {
       if (calculoDos > x) {
         document.getElementById("triangulos-tres").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
+      <p class="correctos">`+ x + "-" + y + "-" + z + `</p>
       `;
       }
     }
@@ -136,7 +136,7 @@ function calcular() {
     if (calculo > z) {
       if (calculoDos > x) {
         document.getElementById("triangulos-cuatro").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
+      <p class="correctos">`+ x + "-" + y + "-" + z + `</p>
       `;
       }
     }
@@ -171,7 +171,7 @@ function calcular() {
     if (calculo > z) {
       if (calculoDos > x) {
         document.getElementById("triangulos-cinco").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
+      <p class="correctos">`+ x + "-" + y + "-" + z + `</p>
       `;
       }
     }
@@ -207,7 +207,7 @@ function calcular() {
       if (calculo > z) {
         if (calculoDos > x) {
           document.getElementById("triangulos-sexto").innerHTML += `
-        <p>`+ x + "-" + y + "-" + z + `</p>
+        <p class="correctos">`+ x + "-" + y + "-" + z + `</p>
         `;
         }
       }
