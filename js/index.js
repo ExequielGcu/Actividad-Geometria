@@ -9,6 +9,54 @@ function traerTexto(x, y, z) {
 }
 
 function calcular() {
+  /*Fila de las posibles combinaciones */
+  document.getElementById("uno").innerHTML = `
+      <h5>`+ "Fila 1" + `<h5>
+      `;
+      document.getElementById("dos").innerHTML = `
+      <h5>`+ "Fila 2" + `<h5>
+      `;
+      document.getElementById("tres").innerHTML = `
+      <h5>`+ "Fila 3" + `<h5>
+      `;
+      document.getElementById("cuatro").innerHTML = `
+      <h5>`+ "Fila 4" + `<h5>
+      `;
+      document.getElementById("cinco").innerHTML = `
+      <h5>`+ "Fila 5" + `<h5>
+      `;
+      document.getElementById("sexto").innerHTML = `
+      <h5>`+ "Fila 6" + `<h5>
+      `;
+       /*Fila de las posibles combinaciones */
+
+       /*Fila de las correctas*/
+  document.getElementById("triangulos-uno").innerHTML = `
+  <h5>`+ "Fila 1" + `<h5>
+  `;
+  document.getElementById("triangulos-dos").innerHTML = `
+  <h5>`+ "Fila 2" + `<h5>
+  `;
+  document.getElementById("triangulos-tres").innerHTML = `
+  <h5>`+ "Fila 3" + `<h5>
+  `;
+  document.getElementById("triangulos-cuatro").innerHTML = `
+  <h5>`+ "Fila 4" + `<h5>
+  `;
+  document.getElementById("triangulos-cinco").innerHTML = `
+  <h5>`+ "Fila 5" + `<h5>
+  `;
+  document.getElementById("triangulos-sexto").innerHTML = `
+  <h5>`+ "Fila 6" + `<h5>
+  `;
+   /*Fila de las correctas */
+      
+
+
+
+
+
+
   let perimetro = document.getElementById("perimetro");
   let numero = parseInt(perimetro.value);
   let x = 1;
@@ -70,14 +118,14 @@ function calcular() {
       }
     }
 
-
+    document.getElementById("dos").innerHTML += `
+    <p>`+ x + "-" + y + "-" + z + `</p>
+    `;
 
     y++;
     z--;
 
-    document.getElementById("dos").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
-      `;
+   
 
 
     if (z === 8) {
@@ -105,14 +153,14 @@ function calcular() {
       }
     }
 
-
+    document.getElementById("tres").innerHTML += `
+    <p>`+ x + "-" + y + "-" + z + `</p>
+    `;
 
     y++;
     z--;
 
-    document.getElementById("tres").innerHTML += `
-       <p>`+ x + "-" + y + "-" + z + `</p>
-       `;
+    
 
 
     if (z === 7) {
@@ -141,14 +189,16 @@ function calcular() {
       }
     }
 
+    document.getElementById("cuatro").innerHTML += `
+      <p>`+ x + "-" + y + "-" + z + `</p>
+      `;
+
 
 
     y++;
     z--;
 
-    document.getElementById("cuatro").innerHTML += `
-      <p>`+ x + "-" + y + "-" + z + `</p>
-      `;
+    
 
 
     if (z === 7) {
@@ -176,14 +226,15 @@ function calcular() {
       }
     }
 
+    document.getElementById("cinco").innerHTML += `
+       <p>`+ x + "-" + y + "-" + z + `</p>
+       `;
 
 
     y++;
     z--;
 
-    document.getElementById("cinco").innerHTML += `
-       <p>`+ x + "-" + y + "-" + z + `</p>
-       `;
+    
 
 
     if (z === 6) {
@@ -212,14 +263,15 @@ function calcular() {
         }
       }
   
+      document.getElementById("sexto").innerHTML += `
+         <p>`+ x + "-" + y + "-" + z + `</p>
+         `;
   
   
       y++;
       z--;
   
-      document.getElementById("sexto").innerHTML += `
-         <p>`+ x + "-" + y + "-" + z + `</p>
-         `;
+      
   
   
       if (z === 6) {
