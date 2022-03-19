@@ -55,7 +55,7 @@ function calcular() {
 
 
 
-
+  /*Aca empieza a calcular */
 
   let perimetro = document.getElementById("perimetro");
   let numero = parseInt(perimetro.value);
