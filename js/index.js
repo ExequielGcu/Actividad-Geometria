@@ -64,6 +64,20 @@ function calcular() {
   let z = numero - (x + y);
 
   /*Aca el primero*/
+
+/* if(numero == 1  || numero == 2 || numero == 3){
+  alert("No existen ternas correctas posibles con este perimetro");
+}
+
+if(numero == 1){
+  document.getElementById("triangulos-uno").innerHTML += `
+      <p class="correctos">`+ "1" + "-" + "1" + "-" + "2" + `</p>
+      `;
+} */
+
+
+
+
   while (x === 1) {
     /*Verificacion si es un triangulo */
     let calculo = x + y;
