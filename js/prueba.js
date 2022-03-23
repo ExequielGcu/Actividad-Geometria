@@ -387,9 +387,10 @@ function calcular(x,alojar,alojarDos,fin) {
           ternaUno=0;
     }
 
-    if (numero === 20 || numero === 30 || numero === 40 || numero === 50 || numero === 60 || numero === 70 || numero === 80) {
+    if (numero === 20 || numero === 30 || numero === 40 || numero === 50 || numero === 60 || numero === 70 || numero === 80 ||
+      numero === 90 || numero === 100 || numero === 110 || numero === 120 || numero === 130 || numero === 140 || numero === 200) {
         
-        if(x===1){
+        if(x===1 || x===3 || x===5){
             fin++;
         }
         while (ternaUno === x) {
